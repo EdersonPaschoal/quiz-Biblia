@@ -1,0 +1,36 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Releway", sans-serif;
+  color: #fff;
+}
+
+body,
+html{
+  min-height: 100vh;
+  height: 100%;
+  background-color: #1216dd8c;
+}
+
+img {
+  max-width: 100%;
+}
+button{
+  font-weight: bold;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: .8rem 1.5rem;
+  background: linear-gradient(90deg, 
+  rgb(53, 222, 166)0%, 
+  rgb(131, 232, 84)100%
+  );
+  border-radius: 3rem;
+  border: none;
+}
+
+button:hover {
+  background: linear-gradient(90deg, 
+  rgb(131, 232, 84)100%, 
+  rgb(53, 222, 166)0%
+  );
+}
